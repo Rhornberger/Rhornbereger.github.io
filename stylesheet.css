@@ -64,6 +64,7 @@ html,body {
 
 .jumbotron {
     padding: 1rem;
+    padding-top: 25px;
     border-radius: 0rem;
 }
 
@@ -96,8 +97,20 @@ html,body {
     color: #2163af;
 }
 
-.fa-code, .fa-bold, .fa-css3 {
-    font-size: 4rem;
+.fa-vuejs {
+    color: #35495e;
+}
+
+.fa-python {
+    color: #4584b6;
+}
+
+.fa-js {
+    color: #f7df1e;
+}
+
+.fa-code, .fa-bold, .fa-css3, .fa-vuejs, .fa-python, .fa-js {
+    font-size: 3rem;
     margin: 1rem 1rem 1rem 1rem;
 }
 
@@ -109,6 +122,22 @@ html,body {
 .gif {
     max-width: 100%;
 }
+
+/* .pic {
+    rotate: 60deg;
+} */
+
+.rotateimg90 {
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* .container-text {
+    padding-top: 50px;
+} */
 
 .social a {
     font-size: 4.5rem;
